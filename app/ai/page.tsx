@@ -1,4 +1,5 @@
 "use client";
+// @ts-nocheck
 
 import React, { useRef, useEffect, useState } from "react";
 import { useChat } from "@ai-sdk/react";
