@@ -32,8 +32,6 @@ export default function Home() {
         <div className="flex flex-col items-center md:items-start justify-center md:justify-start mb-2 h-[32px] md:h-[40px]">
           <TextType
             text={["I'm Wilson Ramropui", "A Design Engineer", "Building Cool Products"]}
-            variableSpeed={false}
-            onSentenceComplete={() => {}}
             typingSpeed={120}
             deletingSpeed={50}
             pauseDuration={2000}
